@@ -1,0 +1,196 @@
+.hero-section {
+    position: relative;
+  }
+  
+  .hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .hero-section .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Show dropdown on hover */
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  /* Remove arrow from dropdown toggle */
+  .navbar .dropdown-toggle::after {
+    display: none;
+  }
+  
+ 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .text-center {
+  visibility: hidden;
+}
+
+
+.card:hover .overlay .text-center {
+  visibility: visible;
+}
+
+.card-img-top {
+height: 400px;
+object-fit: cover;
+}
+
+.menu-item {
+padding: 0;
+}
+
+.card {
+margin: 0;
+border: none;
+border-radius: 0;
+}
+
+.filter-btn {
+border-radius: 50px;
+border: 2px solid #ccc;
+background-color: #fff;
+color: #333;
+padding: 10px 20px;
+transition: all 0.3s ease;
+font-weight: 500;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+background-color: #ff9800; 
+color: #fff;
+border-color: #ff9800;
+}
+
+.btn-group {
+flex-wrap: wrap;
+gap: 10px;
+}
+
+body {
+overflow-x: hidden;
+}
+
+.container-lg {
+max-width: 100%;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.form-control, .form-select, .btn {
+width: 100%;
+max-width: 100%;
+}
+
+.hover-shadow:hover {
+transform: translateY(-5px); /* Slight lift effect */
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+transition: all 0.3s ease-in-out;
+}
+
+.card {
+transition: all 0.3s ease-in-out;
+}
+
+.card-body {
+padding: 2rem;
+}
+
+.text-warning {
+color: #ff9800; /* For headings and icons */
+}
+
+.text-success {
+color: #4caf50; /* For Quality Food */
+}
+
+.text-info {
+color: #17a2b8; /* For Perfect Cook */
+}
+
+.bi-person-fill-gear {
+font-size: 3rem; /* For larger chef icon */
+}
+
+.bi-egg-fried {
+font-size: 3rem; /* For larger food icon */
+}
+
+.bi-person-check-fill {
+font-size: 3rem; /* For larger cook icon */
+}
+
+.hover-shadow:hover {
+transform: translateY(-5px); /* Slight lift effect */
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+transition: all 0.3s ease-in-out;
+}
+
+.card {
+transition: all 0.3s ease-in-out;
+}
+
+.card-body {
+padding: 2rem;
+}
+
+.text-dark {
+color: #000; /* For dark text */
+}
+
+.text-secondary {
+color: #6c757d; /* For secondary text */
+}
+
+.icon-img {
+width: 60px; /* Adjust size of icons */
+height: 60px;
+margin-bottom: 1rem;
+}
+
+.card-body {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.card {
+min-height: 400px; 
+}
+
+.card:hover .position-absolute {
+background-color: rgba(0, 0, 0, 0.9) !important;
+color: #ffc107 !important;
+}
+
+
+.footer-link {
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #fff !important;
+}
