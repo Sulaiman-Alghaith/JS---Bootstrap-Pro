@@ -1,30 +1,30 @@
 # AllFood Restaurant
 
-مشروع واجهة مطعم احترافية باستخدام HTML, CSS, Bootstrap, وJavaScript.
+A professional restaurant front-end project using HTML, CSS, Bootstrap, and JavaScript.
 
-## وصف المشروع
+## Project Description
 
-واجهة تفاعلية لمطعم تعرض قائمة الطعام، معلومات عن المطعم، مدونة، ونموذج حجز طاولة. تم استخدام Bootstrap لتسهيل التصميم وجعله متجاوباً مع جميع الأجهزة.
+An interactive restaurant website that displays the menu, restaurant information, a blog, and a table reservation form. Bootstrap is used for easy and responsive design across all devices.
 
-## مميزات المشروع
+## Features
 
-- قائمة طعام ديناميكية مع فلترة حسب الفئة (إفطار، غداء، عشاء، خاص).
-- صفحة رئيسية جذابة مع صور وخدمات المطعم.
-- نموذج حجز طاولة.
-- مدونة لعرض آخر الأخبار.
-- تصميم متجاوب بالكامل.
+- Dynamic menu with category filtering (Breakfast, Lunch, Dinner, Special).
+- Attractive homepage with images and restaurant services.
+- Table reservation form.
+- Blog section for recent news.
+- Fully responsive design.
 
-## طريقة التشغيل
+## How to Run
 
-1. حمل جميع الملفات في مجلد واحد.
-2. افتح ملف `index.html` في متصفح الإنترنت.
-3. يمكنك تصفح باقي الصفحات (about.html, menu.html, contact.html, blog.html, order.html).
+1. Download all files into a single folder.
+2. Open the `index.html` file in your web browser.
+3. You can browse other pages (about.html, menu.html, contact.html, blog.html, order.html).
 
-## المتطلبات
+## Requirements
 
-- لا يحتاج لأي برامج إضافية. فقط متصفح حديث (Chrome, Edge, Firefox...)
+- No additional software needed. Just a modern browser (Chrome, Edge, Firefox, etc.).
 
-## هيكلية المشروع
+## Project Structure
 
 ```
 JS & Bootstrap Pro/
@@ -40,10 +40,10 @@ JS & Bootstrap Pro/
   ├── section_bg03.png.webp
 ```
 
-## حقوق التصميم
+## Design Credits
 
-تم استخدام بعض الصور والأيقونات من مصادر مجانية وBootstrap.
+Some images and icons are used from free sources and Bootstrap.
 
 ---
 
-بالتوفيق في استخدام المشروع! لأي استفسار تواصل معي.
+Good luck using the project! For any questions, feel free to contact me.
